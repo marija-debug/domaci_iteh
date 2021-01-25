@@ -1,0 +1,223 @@
+/*!
+ * Start Bootstrap - Modern Business (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    background-color: #3F1918;
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+.modal-content{
+    background-image: url("../img/zav3.jpg");
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 75%;
+
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+   width: auto;
+  
+    height: 100%;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+/*footer {
+    padding: 50px 0 0 0;
+    background: #212121;;
+    color: #565656;
+}*/
+
+/* Responsive Styles */
+
+#footer{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: #ffffff;
+    background-image: url('../img/zav3.jpg');
+    background-size: 100%; 
+    display: block;
+    position: relative;
+    margin-top: 10px;
+    text-align: center;
+}
+#footer img{
+    height: 200px;
+    width:145px;
+}
+.info{
+    margin-top: -30px;
+    width: 100%;
+    border: 0px;
+    z-index: 10;
+}
+.info h4{
+    margin: 10px;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+    font-size: 16px;
+    text-align: left;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+}
+.stubic2 a:hover{
+    color: #ffffff;
+    text-decoration: none; 
+    background-color: rgba(187, 183, 183, 0.55);   
+}
+.logo_futer{
+    padding-bottom: 20px;
+}
+ul li h6{
+    padding: 5px;
+}
+.stubic1{
+    
+    height: 50%;
+    padding: 0px;
+    position: relative;
+}
+.icon{
+    font-size: 20px;
+    padding-right: 15px;
+    color: #ffffff;
+}
+.fab{
+    font-size: 30px;
+    padding-right: 30px;
+    color: #ffffff;
+}
+.stubic{
+    padding: 0px;
+}
+.kontakt{
+    margin-top: -30px;
+    margin-right: 20px;
+}
+.misija p {
+    align-content: right;
+    padding-top: 5%;
+    font-size: 15px;
+    text-align: justify;
+    position: relative;
+    color: black;
+    padding-right: 5%;
+    
+    
+} 
+
+.vizija p {
+    align-content: right;
+    padding-top: 10%;
+    font-size: 15px;
+    text-align: justify;
+    position: relative;
+    color: black;
+    padding-left: 5%;
+    
+    
+} 
+.row{
+    width: 100%;
+    
+}
+
+.bold{
+    text-align: center;
+    
+}
+
+#pozoriste p{
+text-align: justify;
+}
+.btnReserve{
+    border-color: #3F1918;
+    border-radius: 3px;
+}
+/* Ne brisi, ovo je ona vertikalna linija */
+.stubic1:after {
+    content:"";
+    position: absolute;
+    right: 30px;
+    border-right: 2px solid white;
+    top:20%;
+    bottom: 15%;
+}
+.doja_logo{
+    height:90px;
+}
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}

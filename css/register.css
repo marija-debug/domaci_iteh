@@ -1,0 +1,27 @@
+.container{
+    color:white;
+    padding-left: 6000px;
+    position:relative;
+}
+
+
+body {
+    background-position: center;
+    position:relative;
+    background-image: url("../img/zav3.jpg");
+ }
+ .main-div {
+  
+   
+    border-radius: 10px;
+    margin: 10px auto 30px;
+    max-width: 28%;
+    padding: 50px 70px -10px 50px;
+    max-height: 10%;
+    
+}
+
+#dugme{
+    background-color: #D99316;
+    border-color: #D99316;
+}

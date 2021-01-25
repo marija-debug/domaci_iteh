@@ -1,0 +1,107 @@
+/*ovo je za login stranicu css*/
+body {
+   background-image: url("../img/pozadina.jpeg");
+   background-position: center;
+   
+}
+
+
+form {
+    /*border: 3px solid #f1f1f1;*/
+    display: block;
+    margin-top: 0em;
+}
+
+.panel-heading{
+    color: white;
+}
+.day-time{
+    border :100px;
+    background-color:#D99316;
+    border-color: #3F1918;
+    margin-right: 600px;
+    margin-left: 600px;
+    text-align: center;
+    border-radius: 5px;
+    font-style: bold;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+   /* display: inline-block;*/
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+
+
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+.imgcontainer {
+   
+    text-align: center;
+    margin: 24px 0 12px 0;
+  
+}
+
+
+img.watch {
+    width: 380px;
+    height: 300px;
+    border-radius: 0%;
+    
+}
+
+
+.btn.btn-primary.container {
+ 
+    
+    padding: 16px;
+}
+
+.main-div {
+  
+    background: #3F1918 none repeat scroll 0 0;
+    border-radius: 10px;
+    margin: 10px auto 30px;
+    max-width: 28%;
+    padding: 50px 70px -10px 50px;
+    max-height: 10%;
+}
+
+.login-form {
+    color: white; 
+    text-align: center;
+}
+
+.login-form .btn.btn-primary {
+    background:#D99316 none repeat scroll 0 0;
+    border-color:#3F1918;
+    color: #ffffff;
+    font-size: 14px;
+    width: 40%;
+    height: 50px;
+    line-height: 50px;
+    padding: 0px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: transparent;
+}
+

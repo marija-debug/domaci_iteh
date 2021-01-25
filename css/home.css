@@ -1,0 +1,101 @@
+.jumbotron{
+  /* background-image: url("../img/Picture.png");*/
+   
+    
+  /* background-color: rgb(252, 252, 252);*/
+  background-color: #230000;
+  opacity: 0.3;
+    color: white;
+}
+
+.jumbotron h1{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 60px;
+   /* font-family:'Buxton Sketch', Courier, monospace;*/
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+
+body{
+  background-image: url("../img/zav3.jpg");
+}
+
+
+/* forma dodaj*/
+.modal-content{
+   background-image: url("../img/zav3.jpg");
+    
+    height: 10%;
+    
+}
+
+.modal-body h3{
+text-align: center;
+font-size: 19px;
+/*font-weight: bold;*/ 
+
+}
+
+
+.film-image{
+ 
+    fill-opacity: 0%;
+    text-align: center;
+  
+}
+
+.modal-dialog{ /*ovim sam sliku ubacila iste velicine na oba*/
+height: 1000%;
+
+}
+
+
+.film-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(29deg);
+}
+
+
+
+
+.btnSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #8696a7;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+table, td {
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+    color: white; /*za boju slova*/
+   /* background-color: #352621; /*boja pozadine tabele*/
+   background-color:#230000;
+}
+th{
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+    color: white; /*za boju slova*/
+   /* background-color: #352621; /*boja pozadine tabele*/
+   background-color:#230000;
+   color:#F37811;
+}
+
+.panel-body {
+/*background-color: #352621;*/
+background-color:#230000;
+
+}
+.glyphicon{
+    color:#F37811;
+}
